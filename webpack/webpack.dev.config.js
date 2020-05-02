@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 
-const {config, jsxConfig, cssConfig} = require('./webpack.config');
+const { config, jsxConfig, cssConfig } = require('./webpack.config');
 
 const CSS_LOADER_OPTIONS = 'sourceMaps&localIdentName=[name]_[local]--[hash:base64:5]&-autoprefixer';
 
@@ -20,7 +20,7 @@ module.exports = Object.assign(config, {
     contentBase: [process.cwd()],
     hot: true,
     overlay: {
-//      warnings: true,
+      // warnings: true,
       errors: true
     },
     port: 3000,
