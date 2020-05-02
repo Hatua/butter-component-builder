@@ -45,7 +45,6 @@
     "butter-theme-base": "Hatua/butter-theme-base",
     "css-loader": "^3.5.3",
     "dotenv": "^8.2.0",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "i18next": "^19.4.4",

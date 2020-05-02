@@ -2,7 +2,7 @@ require('dotenv').config({ silent: true });
 
 const path = require('path')
 const fs = require('fs')
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+// const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 
@@ -123,7 +123,7 @@ const config = {
     new webpack.optimize.SplitChunksPlugin({
       name: 'manifest'
     }),
-    new ExtractTextPlugin('[name].css'),
+    // new ExtractTextPlugin('[name].css'),
     new MiniCssExtractPlugin(),
   ],
   module: {
